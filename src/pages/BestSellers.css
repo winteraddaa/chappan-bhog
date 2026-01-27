@@ -1,0 +1,14 @@
+.gold-bg {
+    background-color: var(--gold) !important;
+    color: var(--text-dark) !important;
+    background-image: none !important;
+}
+
+.gold-bg h1 {
+    color: var(--maroon);
+}
+
+.gold-bg p {
+    color: var(--text-dark);
+    opacity: 0.8 !important;
+}

@@ -1,0 +1,132 @@
+.order-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 4rem;
+    align-items: flex-start;
+}
+
+.order-info h2 {
+    font-size: 2.2rem;
+    color: var(--maroon);
+    margin-bottom: 1.5rem;
+}
+
+.order-info p {
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.delivery-perks {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.perk {
+    border-left: 3px solid var(--saffron);
+    padding-left: 1.5rem;
+}
+
+.perk strong {
+    display: block;
+    font-size: 1.1rem;
+    color: var(--maroon);
+    margin-bottom: 0.3rem;
+}
+
+.perk p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+.order-form {
+    background-color: var(--text-light);
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 0.8rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--maroon);
+    box-shadow: 0 0 0 3px rgba(114, 28, 36, 0.1);
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.confirmation-card {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 4rem;
+    background-color: var(--text-light);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+
+.confirmation-card h2 {
+    font-size: 2.5rem;
+    margin: 2rem 0 1rem;
+    color: var(--maroon);
+}
+
+.confirmation-card p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 992px) {
+    .order-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .order-form {
+        padding: 1.5rem;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+}

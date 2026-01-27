@@ -1,0 +1,51 @@
+.page-header {
+    background-color: var(--maroon);
+    color: var(--text-light);
+    padding: 4rem 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(114, 28, 36, 0.8), rgba(114, 28, 36, 0.8)), url('../assets/festive-box.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.page-header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.page-header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.filter-bar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.filter-btn {
+    padding: 0.6rem 1.5rem;
+    border: 1px solid var(--gold);
+    background: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: var(--transition);
+    font-weight: 600;
+    color: var(--maroon);
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background-color: var(--maroon);
+    color: var(--text-light);
+    border-color: var(--maroon);
+}
+
+@media (max-width: 768px) {
+    .page-header h1 {
+        font-size: 2.2rem;
+    }
+}
