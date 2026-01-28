@@ -5,7 +5,7 @@ export const menuItems = [
         price: 1100,
         category: "Premium Sweets",
         description: "Iconic diamond-shaped cashew fudge, made with premium cashews and silver vark.",
-        image: "/src/assets/kaju-katli.png",
+        image: "/assets/kaju-katli.png",
         bestSeller: true
     },
     {
@@ -14,7 +14,7 @@ export const menuItems = [
         price: 950,
         category: "Traditional Sweets",
         description: "Nutritious and delicious ladoos made from roasted whole wheat flour, ghee, and dry fruits.",
-        image: "/src/assets/panjeeri-ladoo.png",
+        image: "/assets/panjeeri-ladoo.png",
         bestSeller: true
     },
     {
@@ -23,7 +23,7 @@ export const menuItems = [
         price: 1200,
         category: "Classic Sweets",
         description: "Granular and moist milk fudge cooked to perfection for a rich caramelized flavor.",
-        image: "/src/assets/milk-cake.png",
+        image: "/assets/milk-cake.png",
         bestSeller: true
     },
     {
@@ -32,7 +32,7 @@ export const menuItems = [
         price: 800,
         category: "Classic Sweets",
         description: "Soft, spongy cottage cheese balls soaked in aromatic sugar syrup.",
-        image: "/src/assets/rasgulla.png",
+        image: "/assets/rasgulla.png",
         bestSeller: false
     },
     {
@@ -41,7 +41,7 @@ export const menuItems = [
         price: 1150,
         category: "Traditional Sweets",
         description: "Traditional Punjabi sweet made with sprouted wheat, milk, and nuts.",
-        image: "/src/assets/dhoda.png",
+        image: "/assets/dhoda.png",
         bestSeller: false
     },
     {
@@ -50,7 +50,7 @@ export const menuItems = [
         price: 1400,
         category: "Gift Boxes",
         description: "A handpicked selection of our finest premium sweets in a festive box.",
-        image: "/src/assets/festive-box.png",
+        image: "/assets/festive-box.png",
         bestSeller: true
     },
     {
@@ -59,7 +59,7 @@ export const menuItems = [
         price: 1250,
         category: "Premium Sweets",
         description: "Rich burfi made with roasted gram flour and loaded with chopped dry fruits.",
-        image: "/src/assets/festive-box.png",
+        image: "/assets/festive-box.png",
         bestSeller: false
     },
     {
@@ -68,7 +68,7 @@ export const menuItems = [
         price: 900,
         category: "Traditional Sweets",
         description: "Home-style ladoos made with whole wheat flour, clarified butter, and jaggery.",
-        image: "/src/assets/panjeeri-ladoo.png",
+        image: "/assets/panjeeri-ladoo.png",
         bestSeller: false
     },
     {
@@ -77,7 +77,7 @@ export const menuItems = [
         price: 1000,
         category: "Classic Sweets",
         description: "Flaky, multi-layered traditional sweet with a delicate melt-in-the-mouth texture.",
-        image: "/src/assets/festive-box.png",
+        image: "/assets/festive-box.png",
         bestSeller: true
     },
     {
@@ -86,7 +86,7 @@ export const menuItems = [
         price: 1100,
         category: "Traditional Sweets",
         description: "Saffron-infused festive ladoos made with pure ghee and milk solids.",
-        image: "/src/assets/panjeeri-ladoo.png",
+        image: "/assets/panjeeri-ladoo.png",
         bestSeller: false
     },
     {
@@ -95,7 +95,7 @@ export const menuItems = [
         price: 1300,
         category: "Traditional Sweets",
         description: "A crunchy variation of the classic Dhoda, rich with walnuts and dry fruits.",
-        image: "/src/assets/dhoda.png",
+        image: "/assets/dhoda.png",
         bestSeller: false
     },
     {
@@ -104,7 +104,7 @@ export const menuItems = [
         price: 950,
         category: "Classic Sweets",
         description: "Traditional brown peda from Mathura, made with slow-cooked milk solids.",
-        image: "/src/assets/festive-box.png",
+        image: "/assets/festive-box.png",
         bestSeller: false
     },
     {
@@ -113,7 +113,7 @@ export const menuItems = [
         price: 1050,
         category: "Innovative Sweets",
         description: "Exotic coconut ladoos filled with a rich center of mixed dry fruits.",
-        image: "/src/assets/panjeeri-ladoo.png",
+        image: "/assets/panjeeri-ladoo.png",
         bestSeller: false
     },
     {
@@ -122,7 +122,7 @@ export const menuItems = [
         price: 700,
         category: "Classic Sweets",
         description: "Sweetened ash gourd confection, a specialty from North India.",
-        image: "/src/assets/festive-box.png",
+        image: "/assets/festive-box.png",
         bestSeller: false
     },
     {
@@ -131,7 +131,7 @@ export const menuItems = [
         price: 1350,
         category: "Gift Boxes",
         description: "Celebration box featuring a variety of seasonal and festive favorites.",
-        image: "/src/assets/festive-box.png",
+        image: "/assets/festive-box.png",
         bestSeller: true
     }
 ];
